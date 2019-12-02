@@ -17,6 +17,7 @@ complex_z = conj(z);
 aVec = [3.14 15 9 26+0.1j];
 A2 = repmat(aVec, 1,3);
 A1 = horzcat(aVec,aVec,aVec);
+% or A1 = [aVec; aVec; aVec]
 bVec = [3.14; 15; 9; 26+0.1j];
 bVec2 = aVec.';
 cVec = -5:0.1:5;
